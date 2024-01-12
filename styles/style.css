@@ -1,0 +1,180 @@
+* {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#headerImg {
+    width:100px;
+    float:inline;
+}
+
+#bg-blue {
+    background-color: #108eef
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size: 16px;
+}
+
+#times {
+    background-color: #22A6DD;
+    outline: 1px;
+    outline-color: black;
+    margin-bottom: 0rem;
+}
+
+#homeCards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#card {
+    padding:2em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+}
+
+#footerColumn {
+    padding: 2em;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display:block;
+    color:white;
+}
+
+h2 {
+    font-size:20px;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.icons {
+    display:flex;
+    justify-content: center;
+}
+
+.icon {
+    width:5%;
+    margin:1em;
+}
+
+.footericon {
+    width:2em;
+    filter: invert(100%) sepia(0%) saturate(17%) hue-rotate(20deg) brightness(106%) contrast(106%);
+}
+
+#carousel {
+    width: 100%;
+    background-color: #ffffff;
+    overflow:auto;
+    white-space:nowrap;
+}
+
+#carousel .slide {
+    display: inline-block;
+    padding:30px;
+    width: 325px;
+    height: 380px;
+}
+
+#carousel img {
+    width:100%;
+    height:auto;
+}
+
+#carousel p {
+    word-break:break-word;
+    white-space:pre-wrap;
+}
+
+#trails {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin:2em;
+}
+
+#reverseTrails {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin:2em;
+}
+
+#trailsText {
+    margin:3em;
+
+}
+
+#trailsImage {
+    margin:3em;
+}
+
+#trailsText {
+    word-break:break-word;
+    white-space:pre-wrap;
+    word-wrap: normal;
+}
+
+.staffLink {
+    color:black;
+    text-decoration:underline;
+    text-align:center;
+}
+
+.form-group {
+    text-align: center;
+    margin: 1em;
+}
+
+.logReg {
+    margin:auto;
+    margin-bottom:1em;
+    display:block;
+}
+
+.homeLink {
+    color:black;
+    text-decoration:underline;
+    text-align:center;
+    display:inline;
+}
+
+table,th,td {
+    border:1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media screen and (max-width:991px) {
+    #trails {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin:2em;
+    }
+
+    #reverseTrails {
+        display:flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        margin:2em;
+    }
+}
